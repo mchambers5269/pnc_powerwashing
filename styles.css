@@ -2,16 +2,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: #000;
+    color: #FFD700; /* Gold */
     text-align: center;
 }
 
 .banner {
-    background: #000;
+    background: #1E1E1E; /* Dark Grey */
     padding: 20px;
+    color: #00BFFF; /* Bright Blue */
 }
 
 .logo {
-    max-width: 200px;
+    max-width: 180px;
     display: block;
     margin: 0 auto;
 }
@@ -19,28 +22,15 @@ body {
 nav ul {
     list-style: none;
     padding: 0;
+    background: #FFD700;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 15px;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #333;
-    color: white;
-    text-decoration: none;
-}
-
-footer {
-    background: #222;
-    color: white;
-    padding: 10px;
-}
+    color: #000;
